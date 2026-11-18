@@ -4,7 +4,7 @@ This project implements a two-player Pong game (Simple Video Game Processor) in 
 
 The FPGA top-level entity is `top_level` (`top_level.vhd`). It divides the 50 MHz system oscillator (`clk_50`) down to a 25 MHz VGA pixel clock (`clk_25`), paces game physics at 60 Hz via a single-cycle end-of-frame strobe, and integrates Xilinx ChipScope `ICON` and `ILA` cores for hardware debugging.
 
-https://cdn.discordapp.com/attachments/631550014463934476/1572457235664207923/20261117_172923.jpg?ex=6afe706b&is=6afd1eeb&hm=3c5e57c755113c2472bc740cf65d9113730e1354e0fb796bfb2b0a2c4001274a&
+![Two-player Pong running on the Spartan-3E FPGA over 640x480 VGA](hardware_demo.jpg)
 
 *Live 640x480 @ 60 Hz VGA output captured on an LG Flatron L1530S monitor during a 4–0 match.*
 
